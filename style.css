@@ -1,0 +1,240 @@
+body{
+    margin: 0px 0px;
+    background-color: #444654;
+}
+.discussion_portal{
+    /* background-color: rgb(215, 243, 234); */
+    position:fixed;
+    top: 0;
+    border-radius: 2px;
+    color: white;
+    font-size:x-large;
+    text-align: center;
+    margin: 0px 0px;
+}
+.discussion_portal h1{
+    margin: 0px 0px;
+}
+.containers{
+    border-radius: 2px;
+    display: inline-block;
+    width:100%; 
+}
+.container_left{
+    background-color: white;
+    border-radius: 2px;
+    float: left;
+    margin: 0% 2%;
+    width: 35%;
+}
+.search-div{
+    background-color: #D7F3EA;
+    border-radius: 2px;
+    padding: 0px 10px;
+}
+.new_question_form {
+    background-color: #0095FF;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+    width: 40%;
+    min-width: fit-content;
+    align-items:center;
+    overflow: hidden;
+}
+.new_question_form:hover{
+    background-color: #8bc9f5;
+}
+.output{
+    border-radius: 2px;
+    height: 600px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; 
+}
+.search{
+    border-radius: 2px;
+    font-size: larger;
+    padding: 5px;
+    margin: 10px;
+    width: 40%;
+}
+
+.search-div{
+    align-items: center;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    min-width:fit-content;
+}
+.container_right{
+    background-color: #ffffff;
+    border-radius: 2px;
+    align-items: center;
+    float: right;
+    width: 55%;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.subject{
+    border-radius: 2px;
+    font-size: larger;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    width: 55%;
+}
+textarea{
+    border-radius: 2px;
+    font-size: larger;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    resize: none;
+    width: 55%;
+}
+.submit{
+    border-radius: 2px;
+    font-size: large;
+    padding: 5px;
+    background-color: #0095FF;
+    color: rgb(0, 0, 0);
+    float: left;
+    display:inline-flex ;
+    justify-content: center;
+    width: 20%;
+    overflow: hidden;
+}
+.submit:hover{
+    background-color: #8bc9f5;
+}
+.container_right_clone{
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: none;
+    float: right;
+    width: 55%;
+    overflow-y: scroll;
+    margin-right: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.out_div{
+    background-color: #f4e9e9;
+    margin: 5px 0px;
+    overflow: hidden;
+    padding: 0px 20px;
+    /* text-align: center; */
+    color: black;
+}
+.out_div h5{
+    color: #720b0b;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.out_div p{
+    margin: 10px 0px;
+}
+.out_div small{
+    color: #8d8a8a;
+    float: right;
+}
+.favorate_up_down span{
+    float: left;
+    padding: 0% 10% 0% 0%;
+}
+.content{
+    background-color: rgb(215, 243, 234);
+    padding-top: 1px;
+    padding-left: 20px;
+}
+.content h4{
+    margin: 0px;
+}
+.content p{
+    font-size: large;
+    margin: 0px;
+}
+.content span{
+    margin: 0% 30% 0% 0%;
+}
+.responses{
+    border-radius: 7px;
+    /* padding: 20px; */
+}
+.responses h1{
+    padding: 10px 20px 0px 20px;
+    margin: 0px;
+}
+.responses h2{
+    margin: 0px;
+}
+.response{
+    overflow-y: scroll;
+    min-height: 0px;
+    max-height: 350px;
+}
+.response p{
+    margin: 0px;
+}
+.unit_response{
+    background-color: #f4e9e9;
+    margin: 1px 0px 1px 0px;
+    padding: 10px 30px 10px 30px;
+}
+.unit_response h3{
+    margin: 0px;
+}
+.unit_response span{
+    margin: 0% 20% 0% 0%;
+}
+.unit_response p{
+    font-size: medium;
+}
+.addResponse{
+    background-color: rgb(215, 243, 234);
+    padding: 20px;
+}
+.addResponse h2{
+    margin-top: 0px;
+}
+.addResponse input,textarea{
+    padding: 5px;
+    width: 55%;
+    display: block;
+}
+
+.exist{
+    font-size: smaller;
+    color: red; 
+    display: none;
+}
+
+#resolve{
+    background-color: #0095FF;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    margin: 0% 0% 1% 30%;
+}
+#resolve:hover{
+    background-color: #8bc9f5;
+}
+#name{
+    margin: 10px 0px;
+}
+#comment{
+    margin: 10px 0px;
+}
+#response_submit{
+    background-color: #0095FF;
+    font-size: large;
+    /* padding: 5px; */
+}
+#response_submit:hover{
+    background-color: #8bc9f5;
+}
+
